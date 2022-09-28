@@ -7,7 +7,6 @@ that takes array and N as input  parameters and returns the value of the missing
 
 
 
-
 class Solution:
     def MissingNumber(self,array,n):
         # code here
