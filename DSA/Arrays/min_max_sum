@@ -1,2 +1,6 @@
+'''
+Given an array A of size N of integers. Your task is to find the minimum, maximum and sum of the elements in the array.
+'''
+
 def getMinMax( a, n):
     return (min(a),max(a),sum(a))
