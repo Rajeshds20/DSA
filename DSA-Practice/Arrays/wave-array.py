@@ -5,13 +5,9 @@ In other words, arrange the elements into a sequence such that arr[1] >= arr[2] 
 If there are multiple solutions, find the lexicographically smallest one.
 '''
 
-You don't need to read input or print anything. 
-Complete the function MissingNumber() that takes array and N as input parameters and returns the value of the missing number.
-
 
 class Solution:
-    def convertToWave(self, n : int, a : List[int]) -> None:
+    def convertToWave(self, n: int, a: list[int]) -> None:
         # code here
-        for i in range(0,n-1,2):
-            a[i],a[i+1] = a[i+1],a[i]
-        
+        for i in range(0, n-1, 2):
+            a[i], a[i+1] = a[i+1], a[i]
